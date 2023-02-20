@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fadfdf;
+}
+
+/* navbar css starts */
+.bg-light{
+    background-color: #e9c4c1!important;
+}
+
+.navbar-brand{
+    font-family: 'Algerian' 'san-serif';
+    font-size: 1.5rem;
+    color: #0c0c08!important;
+}
+
+.nav-link{
+    color: #0d0d08!important;
+}
+
+.nav-link:hover{
+    background-color: #cff3dc;
+    transition: 0.5s ease;
+}
+/* navbar css ends here*/
+
+.my-info{
+    padding: 2rem 5rem;
+    color: #0d0d08;
+}
+.my-info:hover{
+     color: #53093f;
+}
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(247, 242, 242)!important;
+    color: rgb(246, 103, 205)!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.btn-info:hover{
+    background-color: rgb(243, 227, 137)!important;
+    color: #0f0953!important;
+}
+
+span {
+    font-size: 25px;
+    font-family: 'Algerian''san-serif';
+}

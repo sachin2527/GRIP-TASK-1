@@ -1,0 +1,114 @@
+html{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family:  sans-serif;
+    background-color: #d9ddf8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:1350px 900px;
+}
+
+/* navbar css starts  here*/
+.bg-light{
+    background-color: #7e8df2!important;
+}
+
+.navbar-brand{
+    font-family: 'Algerian';
+    font-size: 1.5rem;
+    color: #d6a6ee!important;
+}
+
+.nav-link{
+    color: #f6c5f4!important;
+}
+
+.nav-link:hover{
+    background-color: #f36262;
+    transition: 0.5s ease;
+}
+/* navbar css ends here */
+
+/* content css starts here*/
+.hero-content{
+    height: 100vh;
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 73vh;
+    width: 100%;
+}
+
+.col-md-6 h1 {
+    color: rgb(141, 127, 245);
+    font-weight: 600;
+}
+
+span {
+    font-size: 25px;
+    font-family: 'Algerian';
+}
+
+.welcome {
+    font-size: 32px;
+    color: rgb(145, 111, 247);
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #0a0909!important;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #f6f0a0;
+    
+}
+
+/* get-started-buttons css starts */
+.get-started-content{
+    height: 60vh;
+    background-color: #f6c7b9;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #3d5c6c;
+    color: #fff!important;
+    transition: 0.3s;
+}
+cd
+.get-started-content a:hover{
+    background-color: #3f6172;
+    text-decoration: none;
+}
+/* get-started-buttons css ends here*/
